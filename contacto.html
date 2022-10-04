@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contacto.css">
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header id="arriba" class="encabezado">
+        <nav>
+            <ul class="menuSuperior">
+                <li> <a href="index.html"> Inicio</a></li>
+                <li> <a href="./nosotros.html"> Nosotros </a></li>
+                <li> <a href="./proyecto.html"> Proyectos</a></li>
+                <li> <a href="./contacto.html"> Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contacto">
+
+        <form action="https://formspree.io/f/mnqrjoar" method="post" class="formulario">
+            <fieldset class="fieldset">
+                <legend> Formulario de contacto</legend>
+
+                <label for="nombre"> Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
+
+                <label for="correo"> Correo electrónico</label>
+                <input type="email" name="correo" id="correo" placeholder="E-mail">
+
+                <label for="Direccion"> Direccion</label>
+                <input type="text" name="direccion" id="direccion" placeholder="Direccion">
+
+                <label for="Localidad"> Localidad</label>
+                <input type="text" name="localidad" id="localidad" placeholder="Localidad">
+
+                <label for="Provincia"> Provincia</label>
+                <input type="text" name="provincia" id="provincia" placeholder="Provincia">
+
+                <label for="Telefon"> Telefono</label>
+                <input type="text" name="telefono" id="telefono" placeholder="Telefono">
+
+                <br> <label for="mensaje"> Escribi tu comentario</label>
+                <!-- <input type="text" name="*consulta" id="consulta" placeholder="*Consulta"> -->
+                <textarea name="mensaje" id="mensaje" placeholder="*Consulta" cols="100" rows="20" minlength="0" maxlength="240"></textarea>
+                </select>
+                <!-- Botones -->
+                <input type="submit" value="Enviar formulario" class="boton_enviar">
+                <input type="reset" value="Limpiar formulario">
+
+            </fieldset>
+        </form>
+
+    </section>
+</body>
+
+</html>
