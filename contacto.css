@@ -37,38 +37,54 @@ body{
         font-size: 1.4rem;
         padding: 2rem;
     }
-    .contenedor{
+    .contacto{
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .formulario{
+        padding: 4rem;
+        margin: 2rem;
+        background-color: #E7E7E7;
+        border-radius: 5px;
+    }
+
+    .formulario input, .formulario textarea, .formulario select{
+        margin-bottom: 1.5rem;
+        width: 100%;
+        padding: 1rem;
+    }
+    .fieldset, legend{
+        border: none;
+        
+    }
+    .checkbox{
         display: flex;
     
     }
-    .contenido{
-        background-color: #fff;
-        padding: 1rem;
-        width: 100%;
-    
+    .checkbox input{
+        width: 5%;
     }
-    .contenido__edificio{
-        padding: 1rem;
-        display: flex;
-        align-items: baseline;
-        text-align: center;
-    
+
+    .boton_enviar{
+        background-color: white;
+        border-color: white;
+        border-radius: 4px;
+    }
+    .boton_enviar:hover{
+        background-color: #011e46;
+        border: 2px solid;
+        border-color:#011e46;
+        font-size: 2rem;
+
     }
     
-    .contenido__imagen{
-        width: 100%;
-    
-    }
-    .contenido__imagen img{
-        width: 80%;   
-        margin: 1rem;
-        box-shadow: 5px 5px rgba(107, 107, 107, 0.514);
-        border-radius: 10px;
-    }
     .footer{
         display: flex;
         background-color: black;
         color: white;
+
         padding: 2rem;
     
     }
